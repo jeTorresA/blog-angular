@@ -1,0 +1,50 @@
+
+.navbar ul {
+    background: violet;
+    display: flex;   
+    align-items: center; 
+    height: 50px;
+}
+
+.navbar ul > li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.buscador {
+    display: flex;
+    align-items: center;    
+}
+
+.buscador {
+    background: ghostwhite;
+    border-radius: 10px;
+    height: 35px;
+    width: 285px;
+    margin-left: 30px;
+}
+.buscador > div {
+    margin-right: 5px;
+    align-items: center;
+}
+
+.buscador div input {
+    border-radius: 10px 0 0 10px;
+    padding: 6px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.buscador .text-search input {
+    background: red;
+    border-radius: 0 10px 10px 0;
+    padding: 5px;
+    margin-left: 5px; 
+    height: 28px;
+    cursor: pointer;  
+}
